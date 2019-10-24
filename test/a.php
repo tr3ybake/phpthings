@@ -1,4 +1,10 @@
 <?php
-    require_once 'sub/b.php';
+    require_once 'b.php';
 
-    echo hi();
+    class A
+    {
+        public function hello()
+        {
+            return 'hello ';
+        }
+    }
